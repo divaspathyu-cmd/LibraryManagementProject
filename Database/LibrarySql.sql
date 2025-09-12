@@ -1,0 +1,8 @@
+CREATE TABLE books_Divaspathy (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL,
+    genre VARCHAR(100) NOT NULL,
+    publisher VARCHAR(255) NOT NULL,
+    year INT NOT NULL
+);
