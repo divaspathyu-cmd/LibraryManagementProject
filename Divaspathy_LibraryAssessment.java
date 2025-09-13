@@ -112,7 +112,7 @@ public class Divaspathy_LibraryAssessment {
                 pst.setInt(5, year);
 
                 pst.executeUpdate();
-                System.out.println("✅ Book added successfully!");
+                System.out.println("Book added successfully!");
             }
 
         } catch (SQLIntegrityConstraintViolationException e) {
